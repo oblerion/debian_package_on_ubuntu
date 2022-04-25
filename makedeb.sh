@@ -45,7 +45,7 @@ function init_control()
 	fi
 	Varch=$input
 
-	echo "Maintainer: exemple -> name <name@mail.com>";
+	echo "Maintainer: example -> name <name@mail.com>";
 	read input;
 	Vmaint=$input
 
