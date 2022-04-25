@@ -5,7 +5,7 @@
 ```
 Binairy_file is bin application.<br>
 ## with directory
----
+///
 # in use
 After it ask some parameters like this
 ```
