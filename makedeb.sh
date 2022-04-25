@@ -27,7 +27,7 @@ function init_dir()
 
 function init_control()
 {
-	echo "Package:" ;
+	echo "Package: (package name)" ;
 	read input;
 	Vpack=$input
 
