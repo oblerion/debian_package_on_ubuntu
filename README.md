@@ -1,6 +1,6 @@
 # makedeb
 
-## use
+## using
 ```bash
 ./makedeb.sh binairy_file
 ```
