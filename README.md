@@ -13,7 +13,7 @@ After it ask some parameters like this
 
   Architecture: (def:amd64)
 
-	Maintainer: exemple -> name <name@mail.com>
+	Maintainer: example -> name <name@mail.com>
 
 	Descrition:
 ```
