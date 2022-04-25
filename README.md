@@ -1,4 +1,12 @@
-# using
+# Dependencies
+- dpkg
+- dpkg-deb
+- dpkg-shlibdeps
+# Install
+```sh
+sudo apt-get install ./.deb
+```
+# Using
 ## with only main.bin
 ```bash
 ./makedeb binairy_file
