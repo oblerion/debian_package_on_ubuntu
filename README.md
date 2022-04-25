@@ -2,7 +2,7 @@
 
 ## using
 ```bash
-./makedeb.sh binairy_file
+./makedeb binairy_file
 ```
 Binairy_file is bin application.<br>
 After it ask some parameters like this
