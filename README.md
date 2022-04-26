@@ -6,10 +6,19 @@
 ```sh
 sudo apt-get install ./.deb
 ```
+# unsinstall
+```sh
+sudo apt-get purge makedeb
+```
 # Using
 ## with only main.bin
+when use script
 ```bash
 ./makedeb binairy_file
+```
+if installed
+```bash
+makedeb binairy_file
 ```
 Binairy_file is bin application.<br>
 ## with directory
