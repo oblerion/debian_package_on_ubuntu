@@ -11,6 +11,14 @@ sudo apt-get install ./.deb
 sudo apt-get purge makedeb
 ```
 # Using
+## help
+```bash
+makedeb --help
+```
+or
+```bash
+makedeb help
+```
 ## generate .deb with main.bin
 when use script
 ```bash
