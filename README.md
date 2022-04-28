@@ -11,7 +11,7 @@ sudo apt-get install ./.deb
 sudo apt-get purge makedeb
 ```
 # Using
-## with only main.bin
+## generate .deb with main.bin
 when use script
 ```bash
 ./makedeb binairy_file
@@ -20,21 +20,29 @@ if installed
 ```bash
 makedeb binairy_file
 ```
+
+## generate deb_directory
+```bash
+makedeb -d binairy_file
+```
 Binairy_file is bin application.<br>
-## with directory
-///
+## generate .deb with deb_directory
+```bash
+makedeb -dex dir_deb
+```
+
 # in use
 After it ask some parameters like this
 ```
-	Package: (package name)
+	Package: (def:binairy_file)
 
 	Version: (def:1.0)
 
   Architecture: (def:amd64)
 
-	Maintainer: example -> name <name@mail.com>
+	Maintainer: example -> <name@mail.com>
 
-	Descrition:
+	Description:
 ```
 it make dir Package-Version-Architecture.<br>
 And .deb with same name.
